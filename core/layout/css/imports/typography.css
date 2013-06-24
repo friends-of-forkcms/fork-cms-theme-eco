@@ -1,0 +1,132 @@
+/*
+	Typography
+*/
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 1.5;
+	color: #6e6760;
+	background: url(../../images/bg_body.png);
+	-webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+p {
+	padding: 0 0 12px 0;
+}
+
+p.intro {
+	font-family: "Chunkfive", Georgia, serif;
+	font-size: 23px;
+	color: #97b173;
+	text-shadow: 0 1px 0 #fff;
+}
+
+strong, th, thead td, h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+}
+
+h1, h2, h3, h4 {
+	font-family: "Chunkfive", Georgia, serif;
+	font-weight: 500;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	line-height: 1.1;
+}
+
+/* Headings */
+
+h1 {
+	font-size: 42px;
+	padding: 0 0 12px 0;
+	color: #ef872b;
+}
+
+h2 {
+	font-size: 24px;
+	padding: 0 0 12px 0;
+	color: #749055;
+}
+
+	.content h2 {
+		background: url(../../images/divider_horizontal_stripe_dotted.png) repeat-x left bottom;
+		margin: 6px 0;
+	}
+
+h3 {
+	font-size: 24px;
+	padding: 0 0 12px 0;
+	color: #749055;
+}
+
+	.content h3 {
+		font-size: 16px;
+		padding: 0 0 6px 0;
+		color: #a67c4d;
+		border-bottom: 1px dashed #b9bb9b;
+		margin: 6px 0;
+		background: url(../../images/icons/tree_small.png) no-repeat right 3px;
+	}
+
+h4 {
+	font-size: 20px;
+	padding: 0 0 12px 0;
+}
+
+	.content h4 {
+		font-size: 12px;
+		letter-spacing: 0.1em;
+		padding: 0 0 6px 0;
+		color: #759156;
+		border-bottom: 1px dashed #b9bb9b;
+		margin: 6px 0;
+	}
+
+/* Links */
+
+a {
+	border-bottom: 1px solid #666;
+	text-decoration: none;
+	-webkit-transition: color .2s, border-color .2s ease;
+	-moz-transition: color .2s, border-color .2s ease;
+	-o-transition: color .2s, border-color .2s ease;
+	transition: color .2s, border-color .2s ease;
+}
+
+a:link {
+	color: #6f9396;
+	border-color: transparent;
+}
+
+a:visited {
+	color: #5d7b7d;
+	border-color: transparent;
+}
+
+a:hover {
+	color: #ef872b;
+	border-color: #ef872b;
+}
+
+a:active {
+	color: #ef872b;
+	border-color: #ef872b;
+}
+
+a:focus {
+	color: #ef872b;
+	border-color: #ef872b;
+}
+
+/* Font-face */
+
+@font-face {
+	font-family: 'Chunkfive';
+	src: url('../../fonts/chunkfive-roman-webfont.eot');
+	src: url('../../fonts/chunkfive-roman-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../../fonts/chunkfive-roman-webfont.woff') format('woff'),
+		 url('../../fonts/chunkfive-roman-webfont.ttf')  format('truetype'),
+		 url('../../fonts/chunkfive-roman-webfont.svg#Chunkfive') format('svg');
+	font-weight: normal;
+    font-style: normal;
+}

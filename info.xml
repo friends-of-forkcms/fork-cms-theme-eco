@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+	<name>eco</name>
+	<version>1.0.0</version>
+	<requirements>
+		<minimum_version>3.3.0</minimum_version>
+	</requirements>
+	<thumbnail>thumbnail.png</thumbnail>
+	<description>
+		<![CDATA[
+			Inspired by the environmental challenges the world is currently facing, Veerle Pieter
+			designed a Fork CMS theme that breathes nature.
+		]]>
+	</description>
+	<authors>
+		<author>
+			<name>Veerle Pieters</name>
+			<url>http://veerle.duoh.com</url>
+		</author>
+		<author>
+			<name>Thomas Deceuninck</name>
+			<url>http://www.thomasdeceuninck.be</url>
+		</author>
+	</authors>
+	<metanavigation supported="false" />
+	<templates>
+		<template label="Default" path="core/layout/templates/default.tpl">
+			<positions>
+				<position name="top">
+					<defaults>
+						<widget module="search" action="form" />
+					</defaults>
+				</position>
+				<position name="left" />
+				<position name="main" />
+			</positions>
+			<format>
+				[/,/,top],[/,main,main],[left,main,main]
+			</format>
+		</template>
+		<template label="Narrow column" path="core/layout/templates/narrow.tpl">
+			<positions>
+				<position name="top">
+					<defaults>
+						<widget module="search" action="form" />
+					</defaults>
+				</position>
+				<position name="left" />
+				<position name="main" />
+			</positions>
+			<format>
+				[/,/,/,top],[/,main,main,main],[left,main,main,main]
+			</format>
+		</template>
+		<template label="Home" path="core/layout/templates/home.tpl">
+			<positions>
+				<position name="top">
+					<defaults>
+						<widget module="search" action="form" />
+					</defaults>
+				</position>
+				<position name="main" />
+				<position name="left" />
+				<position name="middle" />
+				<position name="right" />
+			</positions>
+			<format>
+				[/,/,top],[main,main,main],[left,middle,right]
+			</format>
+		</template>
+	</templates>
+</theme>

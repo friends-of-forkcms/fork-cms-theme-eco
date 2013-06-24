@@ -1,0 +1,51 @@
+/*
+	General purpose classes
+*/
+
+.hidden { display: none; }
+.block { display: block; }
+.noPadding { padding: 0 !important; }
+.noMargin { margin: 0 !important; }
+.floatLeft { float: left; }
+.floatRight { float: right; }
+.noBorder { border: none; }
+.accessibility { position: absolute; top: -9999px; left: -9999px; } /* For screenreaders */
+.fullWidth { width: 100%; }
+
+img.alignLeft {
+	float: left;
+	padding: 0 10px 10px 0;
+}
+
+img.alignRight {
+	float: right;
+	padding: 0 0 10px 10px;
+}
+
+p.alignLeft {
+	float: left;
+	margin: 3px 20px 0 0;
+}
+
+p.alignRight {
+	float: right;
+	margin: 3px 0 0 20px;
+}
+
+.linkedImage {
+	display: block;
+	border: none !important;
+}
+
+	.linkedImage img {
+		display: block;
+	}
+
+.imageHolder a {
+	display: block;
+	border: none;
+}
+
+	.imageHolder img {
+		display: block;
+	}

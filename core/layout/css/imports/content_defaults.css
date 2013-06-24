@@ -1,0 +1,100 @@
+/*
+	Content defaults
+*/
+
+.content .imageHolder {
+	background: url(../../images/bg_image_holder_content.png) no-repeat;
+	padding: 9px 12px 22px 12px;
+}
+
+.content .bigImageHolder {
+	padding: 29px 0 29px 40px;
+	margin: 12px 0;
+	background: url(../../images/bg_image_holder.png) no-repeat;
+}
+
+	.content .bigImageHolder img {
+		display: block;
+		width: 560px;
+	}
+
+.content ul {
+	list-style: none;
+	padding: 0 0 12px 0;
+}
+
+	.content ul li {
+		background: url(../../images/list_bullet.png) no-repeat left 7px;
+		padding: 0 0 0 12px;
+	}
+
+.content ol {
+	list-style-type: decimal;
+	padding: 0 0 12px 12px;
+}
+
+.content dl {
+	padding: 0 0 12px 12px;
+}
+
+.content ul ul,
+.content ul ol,
+.content ol ul,
+.content ol ol {
+	padding-bottom: 0;
+}
+
+.content strong {
+	color: #504942;
+}
+
+.content code {
+	font-family: Monaco, "Courier New", monospace;
+}
+
+.content pre {
+	font-size: 12px;
+	line-height: 18px;
+	background: #F5F5F5;
+	margin: 0 0 12px 0;
+	padding: 10px;
+}
+
+.content blockquote,
+.content q {
+	font-family: "ChunkFive", Georgia, serif;
+	font-size: 18px;
+	color: #97b173;
+	text-shadow: 0 1px 0 #fff;
+	width: 230px;
+	float: right;
+	background: url(../../images/bg_blockquote.png) no-repeat center bottom;
+}
+
+.content blockquote {
+	padding: 12px 0 35px 25px;
+}
+
+.content cite,
+.content em {
+	font-family: Georgia, Times, serif;
+	font-style: italic;
+	color: #c07e3c;
+}
+
+.content table {
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+}
+
+.content td,
+.content th {
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	font-size: 11px;
+	padding: 4px;
+}
+
+.content th {
+	font-weight: 700;
+}

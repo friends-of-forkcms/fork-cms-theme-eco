@@ -1,0 +1,432 @@
+/*
+	Modules
+*/
+
+/*
+	Blog
+*/
+
+.article .content:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; font-size: 0; line-height: 0; }
+.ie6 .article .content, .ie7 .article .content { zoom: 1; }
+
+#blogIndex .article {
+	padding-bottom: 20px;
+}
+
+#blogDetail {
+	padding-bottom: 20px;
+}
+
+#blogDetail .article {
+	padding-bottom: 30px;
+}
+
+	/* Hd */
+
+	.article .hd {
+		background: url(../../images/divider_horizontal_stripe_dotted.png) repeat-x left bottom;
+		margin-bottom: 15px;
+	}
+
+	#blogIndex .article .hd {
+		background: url(../../images/divider_horizontal_stripe_dotted.png) repeat-x left bottom, url(../../images/bg_meta.png) no-repeat right bottom;
+	}
+
+		.article h1 {
+			padding-bottom: 5px;
+		}
+
+		.article h2 {
+			padding-bottom: 3px;
+		}
+
+	/* Bd */
+
+	.article .bd .imageHolder {
+		padding: 29px 0 29px 40px;
+		margin: 12px 0;
+		background: url(../../images/bg_image_holder.png) no-repeat;
+	}
+
+		.article .bd .imageHolder img {
+			display: block;
+			width: 560px;
+		}
+
+	/* Ft */
+
+		/* Tags */
+
+		.tags:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; font-size: 0; line-height: 0; }
+		.ie6 .tags, .ie7 .tags { zoom: 1; }
+
+		.tags {
+			border-top: 1px dashed #c8c4bf;
+			border-bottom: 1px dashed #c8c4bf;
+			background: #eae8e2;
+			background: rgba(220,216,196,0.2);
+			padding: 5px 0;
+		}
+
+			.tags li {
+				float: left;
+				padding: 0 6px;
+			}
+
+			.tags .firstChild {
+				font-family: "Chunkfive", Georgia, serif;
+				font-size: 10px;
+				text-transform: uppercase;
+				letter-spacing: 0.09em;
+				color: #759156;
+				background: url(../../images/icons/tags.png) no-repeat 4px 2px;
+				padding: 3px 6px 1px 24px;
+			}
+
+		/* Article navigation */
+
+		.footerNavigation:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; font-size: 0; line-height: 0; }
+		.ie6 .footerNavigation, .ie7 .footerNavigation { zoom: 1; }
+
+		.footerNavigation {
+			padding: 12px 0;
+		}
+
+			.footerNavigation a {
+				display: block;
+				border: none;
+				height: 28px;
+				line-height: 28px;
+				font-family: "ChunkFive", Georgia, serif;
+				font-size: ;
+			}
+
+			.footerNavigation .previousArticle {
+				float: left;
+				background: url(../../images/article_nav_previous.png) no-repeat left top;
+				padding-left: 36px;
+			}
+
+			.footerNavigation .nextArticle {
+				float: right;
+				background: url(../../images/article_nav_next.png) no-repeat right top;
+				padding-right: 36px;
+			}
+
+/* Comments */
+
+.comment:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; font-size: 0; line-height: 0; }
+.ie6 .comment, .ie7 .comment { zoom: 1; }
+
+.comments {
+	padding-bottom: 30px;
+}
+
+	.comments .hd,
+	.commentForm .hd,
+	.blogRelatedItems .hd,
+	#faqOwnQuestionForm .hd {
+		background: url(../../images/divider_horizontal_stripe_dotted.png) repeat-x left bottom;
+		margin-bottom: 8px;
+	}
+
+		.comments h2,
+		.commentForm h2 {
+			padding: 0 25px 8px 0;
+			background: url(../../images/icons/comments_large.png) no-repeat right 8px;
+			float: left;
+		}
+
+	.comment {
+		padding: 12px 0 0 0;
+		border-bottom: 1px dashed #c2beba;
+	}
+
+		.comment .imageHolder {
+			width: 48px;
+			height: 52px;
+			float: left;
+			padding: 4px;
+			margin: 1px 1px 5px 1px;
+			background: url(../../images/bg_comment_avatar.png) no-repeat;
+		}
+
+		.comment .commentContent {
+			width: 560px;
+			float: right;
+		}
+
+		.comment .author {
+			font-family: Georgia, Times, serif;
+			font-style: italic;
+			font-size: 12px;
+			color: #9fa187;
+			padding-bottom: 6px;
+		}
+
+			.comment .author a {
+				font-family: Arial, sans-serif;
+				font-style: normal;
+				font-size: 13px;
+			}
+
+/* Comments widget */
+
+.blogCommentsWidget li,
+.blogRecentArticlesListWidget li {
+	font-family: Georgia, Times, serif;
+	font-style: italic;
+	font-size: 12px;
+	color: #9fa187;
+	padding: 7px 8px 6px 26px;
+	background: url(../../images/icons/comments_large.png) no-repeat 2px 8px;
+	border-bottom: 1px dashed #9accd1;
+}
+
+	.blogCommentsWidget li a,
+	.blogRecentArticlesListWidget li a {
+		font-family: Arial, sans-serif;
+		font-style: normal;
+		font-size: 13px;
+	}
+
+/* Category widget */
+
+.blogCategoryWidget li {
+	padding: 6px 8px 6px 26px;
+	background: url(../../images/icons/category_large.png) no-repeat 4px 9px;
+	border-bottom: 1px dashed #9accd1;
+}
+
+/* Recent articles widget */
+
+.blogRecentArticlesWidget .bd li {
+	padding: 6px 8px 0 26px;
+	background: url(../../images/icons/tree_odd.png) no-repeat 0 10px;
+	border-bottom: 1px dashed #9accd1;
+}
+
+.blogRecentArticlesWidget .bd .even {
+	background: url(../../images/icons/tree_even.png) no-repeat 0 11px;
+}
+
+	.blogRecentArticlesWidget .title {
+		padding: 2px 0 0 0;
+	}
+
+	.blogRecentArticlesWidget .bd .meta {
+		font-size: 11px;
+	}
+
+		.blogRecentArticlesWidget .bd li li {
+			padding: 0 8px 0 0;
+			background: none;
+			border-bottom: none;
+		}
+
+		.blogRecentArticlesWidget .bd li .icon {
+			padding-left: 13px;
+		}
+
+.blogRecentArticlesWidget .ft .meta {
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	padding: 12px 0;
+}
+
+	.blogRecentArticlesWidget .ft .meta .archiveIcon { padding: 0 20px 0 22px; }
+	.blogRecentArticlesWidget .ft .meta .rssIcon { padding: 0 0 0 18px; }
+
+
+/* Blog Archive */
+
+#blogArchive {
+	display: block;
+}
+
+	#blogArchive h2 {
+		color: #a17b4e;
+		font-size: 18px;
+		background: url(../../images/icons/archive.png) no-repeat;
+		padding-left: 20px;
+	}
+
+.dataGrid {
+	padding-bottom: 0;
+}
+
+	.dataGrid th {
+		font-family: "Chunkfive", Georgia, serif;
+		font-weight: 100;
+		font-size: 14px;
+		color: #759250;
+		padding: 15px 0 5px 0;
+	}
+
+		.dataGrid tbody tr:first-child td {
+			padding-top: 10px;
+		}
+
+		.ie7 .dataGrid tbody,
+		.ie8 .dataGrid tbody {
+			padding-top: 10px;
+		}
+
+		.dataGrid th.commentsCount {
+			background: url(../../images/bg_meta.png) no-repeat right bottom;
+		}
+
+	.dataGrid thead {
+		background: url(../../images/divider_horizontal_stripe_dotted.png) repeat-x left bottom;
+	}
+
+	.dataGrid td.date,
+	.dataGrid td.commentsCount a {
+		font-family: Georgia, Times, serif;
+		font-size: 14px;
+		color: #7b7b67;
+		font-style: italic;
+	}
+
+		.dataGrid td.commentsCount a {
+			padding: 0 0 0 25px;
+			background: url(../../images/icons/comments.png) no-repeat 5px 5px;
+		}
+
+		.dataGrid td.commentsCount a:link,
+		.dataGrid td.commentsCount a:visited,
+		.dataGrid td.commentsCount a:hover,
+		.dataGrid td.commentsCount a:active,
+		.dataGrid td.commentsCount a:focus {
+			border-bottom: none;
+		}
+
+/* Blog archive widget */
+
+.blogArchiveWidget .bd li {
+	padding: 6px 0;
+	border-bottom: 1px dashed #9accd1;
+}
+
+	.blogArchiveWidget .bd li li {
+		padding: 0 0 0 25px;
+		background: url(../../images/list_arrow.png) no-repeat -578px 5px;
+		border-bottom: none;
+	}
+
+.blogArchiveWidget .bd .archiveIcon {
+	background: url(../../images/icons/archive.png) no-repeat 4px 8px;
+}
+
+	.blogArchiveWidget .bd .year {
+		font-family: "Chunkfive", Georgia, serif;
+		font-size: 16px;
+		text-transform: uppercase;
+		color: #a67c4d;
+		padding: 0 0 0 25px;
+	}
+
+		.blogArchiveWidget .bd .year a:link,
+		.blogArchiveWidget .bd .year a:visited {
+			color: #a67c4d;
+			border: none;
+		}
+
+		.blogArchiveWidget .bd .year a:hover,
+		.blogArchiveWidget .bd .year a:active,
+		.blogArchiveWidget .bd .year a:focus {
+			color: #6f9396;
+			border: none;
+		}
+
+		.blogArchiveWidget .bd li span {
+			font-family: Georgia, Times, serif;
+			font-style: italic;
+			font-size: 12px;
+			color: #9fa187;
+		}
+
+/*
+	FAQ
+*/
+
+#faqIndex,
+.blogRelatedItems {
+	padding-bottom: 30px;
+}
+
+/*
+	Mailmotor
+*/
+
+.subscribeFormWidget .hd {
+	margin-bottom: 10px;
+}
+
+/*
+	Search
+*/
+
+#searchIndex {
+	padding-bottom: 30px;
+}
+
+#searchResults .article {
+	padding-bottom: 20px;
+}
+
+	#searchResults .article h2 {
+		padding-bottom: 8px;
+	}
+
+/* Search form widget */
+
+#searchFormWidget input.inputText {
+	width: 168px;
+	border-color: #928c85;
+	padding: 3px 26px 3px 4px;
+	background-color: #766b61;
+	background: url(../../images/icons/search.png) no-repeat;
+	background-image: url(../../images/icons/search.png), -moz-linear-gradient(0% 3px 90deg,#766b61, #695f56);
+	background-image: url(../../images/icons/search.png), -webkit-gradient(linear, 0% 0%, 0% 3, from(#695f56), to(#766b61));
+	background-position: 176px 4px, 0 0;
+	color: #fff;
+}
+
+#searchFormWidget input.inputText:focus {
+	background-color: #fff;
+	background-image: none;
+	background-image: url(../../images/icons/search.png), -moz-linear-gradient(0% 3px 90deg,#fff, #dedede);
+	background-image: url(../../images/icons/search.png), -webkit-gradient(linear, 0% 0%, 0% 3, from(#dedede), to(#fff));
+	background-position: 176px 4px, 0 0;
+	-webkit-box-shadow: 0 0 3px rgba(255,255,255,0.3);
+	   -moz-box-shadow: 0 0 3px rgba(255,255,255,0.3);
+	        box-shadow: 0 0 3px rgba(255,255,255,0.3);
+	color: #000;
+}
+
+.ie7 #searchFormWidget input.inputText,
+.ie8 #searchFormWidget input.inputText {
+	background: #776c62 url(../../images/icons/search.png) no-repeat 176px 4px;
+}
+
+.ie7 #searchFormWidget input.inputText:focus,
+.ie8 #searchFormWidget input.inputText:focus {
+	background-color: #fff;
+}
+
+#searchFormWidget input.inputSubmit {
+	display: none;
+}
+
+/*
+	Tags
+*/
+
+.tagRelatedWidget li,
+.tagCloudWidget li {
+	padding: 6px 8px 6px 26px;
+	background: url(../../images/icons/tags.png) no-repeat 4px 9px;
+	border-bottom: 1px dashed #9accd1;
+}
